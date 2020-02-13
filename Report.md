@@ -8,15 +8,15 @@ Team Number: F6
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    The program needs a set up to create and initalize variables and it needs a loop to perform the desired function
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    You'll repeat initalization, which can change variables.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    So that your code can be translated into machine language that the chip can understand.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
