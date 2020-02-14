@@ -25,12 +25,12 @@ void dimmer(int freq, int duty) {
     delay(offTime);
 }
 void loop() {
-  timedBlink (interval);
-  if (interval == 1000) {
-    interval= 250;
+  dimmer (interval, 50);
+  if (interval == 50) {
+    interval= 100;
   }
   else{
-    interval*=2;
+    interval-=10;
   } 
 }
   // put your main code here, to run repeatedly:
